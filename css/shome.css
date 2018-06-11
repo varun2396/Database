@@ -1,0 +1,77 @@
+body {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 200px;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+*{
+    box-sizing: border-box;
+}
+
+.text{
+  padding: 10px 20px;
+  float: left;
+  width: 80%;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Set a style for all buttons */
+button:hover {
+    opacity:1;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+}
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.a{
+    color: white;
+    padding-left: 500px;
+}
+.b{
+    color: white;
+    padding-right:100px
+}
+span{
+    color: white;
+    padding-right:30px
+}
